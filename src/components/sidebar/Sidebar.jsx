@@ -12,9 +12,10 @@ import {
 } from "@material-ui/icons";
 
 export default function sidebar() {
-  return <div className="sidebar">
-    <div className="sidebarWrapper">
-    <ul className="sidebarList">
+  return (
+    <div className="sidebar">
+      <div className="sidebarWrapper">
+        <ul className="sidebarList">
           <li className="sidebarListItem">
             <RssFeed className="sidebarIcon" />
             <span className="sidebarListItemText">Feed</span>
@@ -52,18 +53,35 @@ export default function sidebar() {
             <span className="sidebarListItemText">Courses</span>
           </li>
         </ul>
-        <button className="sidebarButton">
-          Show More
-        </button>
-        <hr className="sidebarHr"/>
+        <button className="sidebarButton">Show More</button>
+        <hr className="sidebarHr" />
         <ul className="sidebarFriendList">
           <li className="sidebarFriend">
-            <img className="sidebarFriendImg" src="/assets/person/endo_sakura.jpg" alt="" />
-            <span className="sidebarFriendName">
-              Sakura Endo
-            </span>
+            <img
+              className="sidebarFriendImg"
+              src="/assets/person/1.jpeg"
+              alt=""
+            />
+            <span className="sidebarFriendName">Sakura Endo</span>
+          </li>
+          <li className="sidebarFriend">
+            <img
+              className="sidebarFriendImg"
+              src="/assets/person/1.jpeg"
+              alt=""
+            />
+            <span className="sidebarFriendName">Sakura Endo</span>
+          </li>
+          <li className="sidebarFriend">
+            <img
+              className="sidebarFriendImg"
+              src="/assets/person/1.jpeg"
+              alt=""
+            />
+            <span className="sidebarFriendName">Sakura Endo</span>
           </li>
         </ul>
+      </div>
     </div>
-  </div>;
+  );
 }
