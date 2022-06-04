@@ -64,54 +64,6 @@ export default function sidebar() {
             />
             <span className="sidebarFriendName">Sakura Endo</span>
           </li>
-          <li className="sidebarFriend">
-            <img
-              className="sidebarFriendImg"
-              src="/assets/person/1.jpeg"
-              alt=""
-            />
-            <span className="sidebarFriendName">Sakura Endo</span>
-          </li>
-          <li className="sidebarFriend">
-            <img
-              className="sidebarFriendImg"
-              src="/assets/person/1.jpeg"
-              alt=""
-            />
-            <span className="sidebarFriendName">Sakura Endo</span>
-          </li>
-          <li className="sidebarFriend">
-            <img
-              className="sidebarFriendImg"
-              src="/assets/person/1.jpeg"
-              alt=""
-            />
-            <span className="sidebarFriendName">Sakura Endo</span>
-          </li>
-          <li className="sidebarFriend">
-            <img
-              className="sidebarFriendImg"
-              src="/assets/person/1.jpeg"
-              alt=""
-            />
-            <span className="sidebarFriendName">Sakura Endo</span>
-          </li>
-          <li className="sidebarFriend">
-            <img
-              className="sidebarFriendImg"
-              src="/assets/person/1.jpeg"
-              alt=""
-            />
-            <span className="sidebarFriendName">Sakura Endo</span>
-          </li>
-          <li className="sidebarFriend">
-            <img
-              className="sidebarFriendImg"
-              src="/assets/person/1.jpeg"
-              alt=""
-            />
-            <span className="sidebarFriendName">Sakura Endo</span>
-          </li>
         </ul>
       </div>
     </div>
